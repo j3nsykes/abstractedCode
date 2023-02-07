@@ -1,0 +1,93 @@
+/* test style */
+/* @import must be at top of file, otherwise CSS will not work */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif+Display:ital,wght@1,900&family=Smokum&display=swap');
+
+/*Main Body*/
+html,
+body {
+    /* margin: 50; */
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #201E1F;
+    /* resize: horizontal;
+    overflow: auto; */
+    /* background-color: #F0E2D5; */
+}
+
+
+
+.section {
+
+    width: 1200px;
+    /* margin: 10px; */
+    max-width: 1200px;
+    /* border: thin solid red; */
+}
+
+.container {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: auto;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    /* remove extra space below image */
+}
+
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 80px;
+    grid-row-gap: 5px;
+    grid-template-columns: 625px 625px;
+    /* grid-template-rows:20px 20px; */
+    align-content: space-evenly;
+}
+
+.grid-containerViewLeft {
+    display: grid;
+    grid-column-gap: 75px;
+    grid-row-gap: 5px;
+    grid-template-columns: 520px 750px;
+    align-content: space-evenly;
+}
+
+.grid-containerViewRight {
+    display: grid;
+    grid-column-gap: 75px;
+    grid-row-gap: 5px;
+    grid-template-columns: 750px 520px;
+    align-content: space-evenly;
+}
+
+.griditemImage {
+    grid-gap: 10px 10px;
+    margin-top: 0px;
+}
+
+.griditem {
+    grid-gap: 10px 10px;
+    margin-top: 0px;
+}
+
+#swatch {
+    border: 1px solid #d5d0d0;
+    float: right;
+    width: 170px;
+    height: 170px;
+}
+
+#main p {
+    margin-top: 0px;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 175%;
+    color: #000000;
+}
